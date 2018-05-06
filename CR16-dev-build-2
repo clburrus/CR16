@@ -1,0 +1,46 @@
+Install g++
+Install make
+Install m4
+
+mkdir cr16-build
+Copy over source directories
+	binutils-2.29
+	gcc-8.1.0
+	gmp-6.1.2
+	mpc-1.1.0
+	mpfr-4.0.1
+	newlib-2.5.0.20171222
+
+export PREFIX=${HOME}/cr16
+export PATH="${PREFIX}/bin:${PATH}"
+
+binutils
+===========================
+make, make install binutils
+
+gmp
+===========================
+configure, make, sudo make install gmp
+
+mpfr
+===========================
+configure, make, sudo make install mpfr
+
+mpc
+===========================
+configure, make, sudo make install mpc
+
+GCC
+===========================
+make all-host, make install-host
+
+NewLib
+===========================
+configure, make, make install newlib
+
+GCC
+===========================
+make all-target, make install-target
+
+
+
