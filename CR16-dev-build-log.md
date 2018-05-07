@@ -2,10 +2,10 @@
 
 ## Prerequisites
 
-Ubuntu 18.4
-     +Install g++   
-     +Install make  
-     +Install m4    
+* Ubuntu 18.4
+* Install g++   
+* Install make  
+* Install m4    
 
 ```
 > sudo apt install g++
