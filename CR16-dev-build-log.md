@@ -50,7 +50,7 @@ Note : (in this example /home/dev/cr16)
 > cd gmp-6.1.2/
 > ./configure
 > make
-> sudo make install gmp
+> sudo make install
 > cd ..
 ```
 
@@ -60,7 +60,7 @@ Note : (in this example /home/dev/cr16)
 > ./configure
 > make
 > make check
-> sudo make install gmp
+> sudo make install
 > cd ..
 ```
 
@@ -69,7 +69,7 @@ Note : (in this example /home/dev/cr16)
 > cd mpc-1.1.0/
 > ./configure
 > make
-> sudo make install gmp
+> sudo make install
 > cd ..
 ```
 
